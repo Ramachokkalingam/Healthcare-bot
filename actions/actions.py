@@ -25,3 +25,31 @@
 #         dispatcher.utter_message(text="Hello World!")
 #
 #         return []
+{
+  "next_action": "string",
+  "sender_id": "string",
+  "tracker": {
+    "conversation_id": "default",
+    "slots": {},
+    "latest_message": {},
+    "latest_event_time": 1537645578.314389,
+    "followup_action": "string",
+    "paused": false,
+    "events": [],
+    "latest_input_channel": "rest",
+    "active_loop": {},
+    "latest_action": {}
+  },
+  "domain": {
+    "config": {},
+    "session_config": {},
+    "intents": [],
+    "entities": [],
+    "slots": {},
+    "responses": {},
+    "actions": [],
+    "forms": {},
+    "e2e_actions": []
+  },
+  "version": "version"
+}
